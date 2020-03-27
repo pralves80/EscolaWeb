@@ -9,6 +9,6 @@ namespace EscolaWeb.Models
 	{
 		public int Id_Situacao_PK { get; set; }
 		public string Descricao { get; set; }
-		
+		public Boolean Ativo { get; set; }
 	}
 }
